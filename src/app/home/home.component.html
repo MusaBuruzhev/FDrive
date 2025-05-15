@@ -1,4 +1,3 @@
-
 <!-- <nav class="main-nav">
     <a routerLink="/">Главная</a>
     <a routerLink="/catalog">Каталог</a>
@@ -45,6 +44,65 @@
       <button class="filter_NTN" type="submit">Найти автомобиль</button>
     </div>
   </form>
+</div>
+
+
+
+
+
+
+  
+
+  
+<div class="main">
+  <div class="logo-block" #logoBlock>
+  <div class="logo-wrapper">
+    <img class="logo" src="/logo.png" alt="Логотип" />
+  </div>
+
+  <div class="info-text">
+    <div class="info-text_tt tt_l">
+      <p style="color: rgb(114, 114, 114);">Теперь</p>
+      <div style="display: flex; margin-top: -60px;"><h1 style="color: black;">Арендуй авто за</h1><h1 style="color: red; margin-left: 15px;">3</h1></div>
+      <h1 style="color: red; margin-top: -50px;" >шага</h1>
+      <button>Арендовать машину</button>
+    </div>
+
+  
+    <div class="info-text_tt tt_r">
+      <div class="steps">
+        <div class="step" #step1>
+          <div class="step-number">1</div>
+          <div class="step-content">
+            <h3>Выберите автомобиль</h3>
+            <p>Определитесь с моделью и классом авто, который вам нужен.</p>
+          </div>
+        </div>
+        <div class="step" #step2>
+          <div class="step-number">2</div>
+          <div class="step-content">
+            <h3>Укажите срок аренды</h3>
+            <p>Выберите даты получения и возврата автомобиля.</p>
+          </div>
+        </div>
+        <div class="step" #step3>
+          <div class="step-number">3</div>
+          <div class="step-content">
+            <h3>Заберите авто</h3>
+            <p>Подпишите договор и получите ключи от выбранного авто.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </div>
+  
+
+  <div class="cart">
+    <app-car-card *ngFor="let car of cars" [car]="car"></app-car-card>
+  </div>
+
+
 </div>
 
 <div class="info">
@@ -100,13 +158,4 @@
       </div>
     </div>
   </div>
-</div>
-  
-
-  
-<div class="main">
-  <div class="cart">
-    <app-car-card *ngFor="let car of cars" [car]="car"></app-car-card>
-  </div>
-  
 </div>

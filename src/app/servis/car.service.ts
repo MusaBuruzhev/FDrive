@@ -5,9 +5,7 @@ export interface Car {
   imageUrl: string;
   details: string;
   pricePerDay: number;
-  price1to3: number;
-  priceWeek: number;
-  priceMonth: number;
+
   phone: string;
   whatsapp: string;
   link: string;
@@ -22,9 +20,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -34,9 +29,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -46,9 +38,7 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
+
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -58,9 +48,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -70,9 +57,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -82,9 +66,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -94,9 +75,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -106,9 +84,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -118,9 +93,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -130,9 +102,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -142,9 +111,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'
@@ -154,9 +120,6 @@ export class CarService {
         imageUrl: 'https://storage.googleapis.com/trinityrental-e51d5.appspot.com/medium_0_lambo_urus_7e99c2f6b1/medium_0_lambo_urus_7e99c2f6b1.jpeg',
         details: '5 мест, 650 л.с, 4л, 0-100: 3.6сек',
         pricePerDay: 2280,
-        price1to3: 3800,
-        priceWeek: 23940,
-        priceMonth: 68400,
         phone: '+971502100702',
         whatsapp: '971502100702',
         link: '/ru/rent-lamborghini/urus'

@@ -1,9 +1,9 @@
 .car-card {
-
+margin-top: 20px;
   border-radius: 8px;
   overflow: hidden;
   font-family: Arial, sans-serif;
-  max-width: 600px;
+  max-width: 563px;
   margin: auto;
   -webkit-box-shadow: 9px 10px 19px 0px rgba(34, 60, 80, 0.2);
 -moz-box-shadow: 9px 10px 19px 0px rgba(34, 60, 80, 0.2);
@@ -29,7 +29,7 @@ box-shadow: 9px 10px 19px 0px rgba(34, 60, 80, 0.2);
 
 .details {
   color: #000000;
-  font-size: 0.9rem;
+  font-size: 1.2rem;
 }
 
 .price-row {
@@ -42,23 +42,24 @@ box-shadow: 9px 10px 19px 0px rgba(34, 60, 80, 0.2);
   color: #000;
   font-weight: bold;
   margin: 0;
+  font-size: 1.3rem;
 }
 
 .per-day {
-  font-size: 0.9rem;
+  font-size: 1.5rem;
   color: #000000;
 }
 
 .dropdown span {
   display: block;
-  margin-top: 0.3rem;
+  margin-top: 0.5rem;
 }
 
 .dropdown ul {
   list-style: none;
   padding: 0;
   margin: 0.2rem 0 0 0;
-  font-size: 0.85rem;
+  font-size: 1.1rem;
   color: #000000;
 }
 
@@ -70,6 +71,7 @@ box-shadow: 9px 10px 19px 0px rgba(34, 60, 80, 0.2);
   display: flex;
   gap: 0.5rem;
   margin-top: 1rem;
+      justify-content: space-around;
 }
 
 .btn {
@@ -83,11 +85,15 @@ box-shadow: 9px 10px 19px 0px rgba(34, 60, 80, 0.2);
 
 .btn.outlined {
   background: none;
-  border: 1px solid #ffffff;
+  border: 1px solid #000000;
   color: #000000;
+      padding-left: 5%;
+    padding-right: 5%;
 }
 
 .btn.filled {
   background: #000000;
   color: white;
+      padding-left: 8%;
+    padding-right: 8%;
 }

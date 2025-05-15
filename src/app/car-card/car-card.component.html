@@ -14,14 +14,13 @@
     <div>
       <div class="price-row">
         <div>
-          <h4 class="price">от {{ car.pricePerDay }} AED</h4>
+          <h4 class="price">от {{ car.pricePerDay }} RUB</h4>
           <span class="per-day">в день</span>
 
           <div class="dropdown">
-            <span>1-3 дней: <strong>{{ car.price1to3 }} AED</strong></span>
             <ul>
-              <li>Цена за неделю: <span>{{ car.priceWeek }} AED</span></li>
-              <li>Цена за месяц: <span>{{ car.priceMonth }} AED</span></li>
+              <li>Цена за неделю: <span>{{ 7 * car.pricePerDay }} RUB</span></li>
+              <li>Цена за месяц: <span>{{ 30 * car.pricePerDay }} RUB</span></li>
             </ul>
           </div>
         </div>

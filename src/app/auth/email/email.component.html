@@ -1,0 +1,9 @@
+
+<h1>Рег.Авт</h1>
+<input [(ngModel)]="email" placeholder="Введите ваш email" />
+<button (click)="onSubmitEmail()">Отправить код</button>
+
+<div *ngIf="showCodeInput">
+  <input [(ngModel)]="code" placeholder="Код из письма" />
+  <button (click)="onSubmitCode()">Подтвердить</button>
+</div>

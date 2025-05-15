@@ -10,7 +10,10 @@
     align-items: center;
 }
 
-
+app-car-card{
+  margin-top: 50px;
+  width: 24.2%;
+}
 
 .baner h1{
  
@@ -105,7 +108,7 @@
   .main {
     width: 80%;
     margin-top: 100px;
-    height: 5000px;
+ 
     margin-left: auto;
     margin-right: auto;
   }
@@ -127,6 +130,7 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
+  margin-top: 150px;
 }
 .info p{
   font-size: 20px;
@@ -229,4 +233,163 @@
   .advantage-item {
     flex: 1 1 100%; /* На очень маленьких экранах одна колонка */
   }
+}
+
+
+.logo-block {
+  width: 100%;
+  margin: 40px auto;
+  position: relative;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  
+  border-radius: 10px;
+  color: white;
+}
+
+.logo-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+      width: 100%;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 30%;
+  height: auto;
+  display: block;
+  transform-origin: center center;
+  transition: transform 0.1s ease-out;
+ 
+}
+.info-text {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+      justify-content: space-between;
+   z-index: 1;
+
+}
+
+.info-text_tt{
+  width: 45%;
+  height: 60vh;
+}
+
+
+.main-title {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.step-count {
+  margin-left: 13px;
+  color: white;
+}
+
+.steps {
+    display: flex
+;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+    color: white;
+    height: 87%;
+        justify-content: space-evenly;
+    align-items: flex-end;
+}
+
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+  color: white;
+
+}
+.active{
+  margin-left: 40px;
+}
+.tt_l p{
+  font-size: 25px;
+  margin-top: 130px;
+}
+.tt_l h1{
+  font-size: 65px;
+}
+
+.tt_l button{
+  width: 300px;
+  height: 50px;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+  background-color:#3f3f3f;
+  border: 2px solid #000000;
+  
+  border: none;
+  border-radius: 15px;
+}
+.step-number {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.step-content h3 {
+  margin: 0 0 5px 0;
+  font-size: 25px;
+  margin-left: 13px;
+  color: #000000;
+  margin-top: 10px;
+}
+
+.step-content p {
+  margin: 0;
+  font-size: 18px;
+  margin-left: 13px;
+  color: #3f3f3f;
+
+
+}
+.step{
+  
+  width: 70%;
+  
+
+
+  
+}
+.step-content{
+  background-color: white;
+  
+  height: 100px;
+
+  width: 100%;
+    /* Только верхняя граница */
+  border-top: 7px solid #ff0000;
+
+  /* Закругление только нижних углов */
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.step-number{
+  background-color: red;
+  margin-top: 30px;
+  width: 40px;
+  height: 40px;
 }
