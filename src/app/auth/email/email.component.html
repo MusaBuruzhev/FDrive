@@ -1,9 +1,12 @@
+<div>
+  <h2>Введите ваш email</h2>
 
-<h1>Рег.Авт</h1>
-<input [(ngModel)]="email" placeholder="Введите ваш email" />
-<button (click)="onSubmitEmail()">Отправить код</button>
+  <input [(ngModel)]="email" placeholder="example@gmail.com" />
+  <button (click)="onSubmitEmail()">Отправить код</button>
 
-<div *ngIf="showCodeInput">
-  <input [(ngModel)]="code" placeholder="Код из письма" />
-  <button (click)="onSubmitCode()">Подтвердить</button>
+  <div *ngIf="showCodeInput">
+    <h3>Введите код из письма</h3>
+    <input [(ngModel)]="code" placeholder="123456" />
+    <button (click)="onSubmitCode()">Подтвердить</button>
+  </div>
 </div>

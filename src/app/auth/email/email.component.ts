@@ -20,16 +20,22 @@ export class EmailComponent {
 
   constructor(private authService: AuthService, private router: Router) {}
 
+  // Отправить email
   onSubmitEmail() {
     this.authService.sendCode(this.email).subscribe(() => {
       this.showCodeInput = true;
     });
   }
 
+  // Проверить код
   onSubmitCode() {
-    this.authService.verifyCode(this.email, this.code).subscribe(() => {
-      // Перекидываем куда угодно, например обратно на email
-      this.router.navigate(['/email']);
+    this.authService.verifyCode(this.email, this.code).subscribe({
+      next: () => {
+        this.router.navigate(['/profile']);
+      },
+      error: () => {
+        alert('Неверный код');
+      }
     });
   }
 }
