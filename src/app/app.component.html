@@ -12,10 +12,7 @@
       <a routerLink="/">О нас</a>
       <a routerLink="/">Контакты</a>
       <a routerLink="/">Сотрудничество</a>
-      <a [routerLink]="auth.isAuthenticated() ? ['/profile'] : ['/email']">
-        {{ auth.isAuthenticated() ? 'Мой профиль' : 'Войти' }}
-      </a>
-      <!-- <a routerLink="/email">Войти</a> -->
+
 
 
     </nav>

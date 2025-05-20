@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
 import { RouterLink, RouterOutlet } from '@angular/router';
-import { AuthService } from './servis/auth.service';
+
 
 @Component({
   selector: 'app-root',
@@ -11,7 +11,7 @@ import { AuthService } from './servis/auth.service';
 export class AppComponent {
   title = 'fdrivi';
 
-  constructor(public auth: AuthService) {
+  constructor() {
   
     window.addEventListener('scroll', this.handleScroll);
   }

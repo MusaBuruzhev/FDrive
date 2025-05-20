@@ -10,7 +10,7 @@ bootstrapApplication(AppComponent, {
   providers: [
     provideHttpClient(),
     importProvidersFrom(RouterModule.forRoot(routes)),
-    // другие провайдеры 
+   
   ]
 })
   .catch((err) => console.error(err));
